@@ -23,7 +23,7 @@ public class PageController {
             "/mypage/edit",
             "/favorites"}, produces = MediaType.TEXT_HTML_VALUE)
     public String index() {
-        fileLogger.info("파일 로깅 입니다.");
+        fileLogger.info("file logging.");
         return "index";
     }
 }
